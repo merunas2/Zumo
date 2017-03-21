@@ -21,12 +21,12 @@ public class Main {
         el precio del litro es 2€*/
         unDeposito= new Zumo(20,2,"Pomelo",40);
         
-        acciones_Zumo(unDeposito);
+        acciones_Zumo(unDeposito, 0);
         relleno = unDeposito.obtenerLitros();
         System.out.println("El depósito contiene " + relleno + " litros");
     }
 
-    public static void acciones_Zumo(Zumo unDeposito) {
+    public static void acciones_Zumo(Zumo unDeposito, double peso) {
         try {
             System.out.println("Vamos a tomar zumo");
             unDeposito.sacarZumo(5, 20);//Se intentan comprar 5 litros de zumo con 20€
@@ -40,4 +40,5 @@ public class Main {
             System.out.println("Fallo al rellenar el depósito");
         }
     }
+
 }

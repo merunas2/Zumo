@@ -61,5 +61,37 @@ public class Zumo {
 	
 }
 
+    public int getLitros() {
+        return litros;
+    }
+
+    public void setLitros(int litros) {
+        this.litros = litros;
+    }
+
+    public int getPrecio_litro() {
+        return precio_litro;
+    }
+
+    public void setPrecio_litro(int precio_litro) {
+        this.precio_litro = precio_litro;
+    }
+
+    public String getSabor() {
+        return sabor;
+    }
+
+    public void setSabor(String sabor) {
+        this.sabor = sabor;
+    }
+
+    public int getLitros_max() {
+        return litros_max;
+    }
+
+    public void setLitros_max(int litros_max) {
+        this.litros_max = litros_max;
+    }
+
 }
 
